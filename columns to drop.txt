@@ -1,0 +1,4 @@
+columns to drop
+=====
+
+'Record_ID', 'Physician_ID', 'set', 'First_Name', 'Middle_Name', 'Last_Name', 'Name_Suffix', 'Company_Name'
