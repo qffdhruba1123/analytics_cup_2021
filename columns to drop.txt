@@ -3,4 +3,4 @@ columns to drop
 
 'Record_ID', 'Physician_ID', 'set', 'First_Name', 'Middle_Name', 'Last_Name', 'Name_Suffix', 'Company_Name',  'Product_Code_1',
        'Product_Code_2', 'Product_Code_3', 'Product_Type_1', 'Product_Type_2',
-       'Product_Type_3', 'Product_Category_1', 'Product_Category_2', 'Product_Category_3'
+       'Product_Type_3', 'Product_Category_1', 'Product_Category_2', 'Product_Category_3', 'Province'
