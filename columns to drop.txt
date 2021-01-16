@@ -31,7 +31,7 @@ BASIS OF DROPPING RECORDS
 DROPS BASED ON CORR
 =====
 All Product Type columns dropped as high Corr with related product indicator
-
+this correlation isnt as significant when na encoded
 
 THINGS TO TRY
 ======
@@ -39,4 +39,10 @@ THINGS TO TRY
 -squeeze and drop na
 -other models
 -increase data size (used only balanced ~4800 samples)
+---derived units to try
+---weekday
+---total amount
+-try boosting
+-try clustering
+-anindya bhai will explore NNs
 
