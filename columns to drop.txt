@@ -4,3 +4,39 @@ columns to drop
 'Record_ID', 'Physician_ID', 'set', 'First_Name', 'Middle_Name', 'Last_Name', 'Name_Suffix', 'Company_Name',  'Product_Code_1',
        'Product_Code_2', 'Product_Code_3', 'Product_Type_1', 'Product_Type_2',
        'Product_Type_3', 'Product_Category_1', 'Product_Category_2', 'Product_Category_3', 'Province'
+
+
+'Record_ID', 'Physician_ID', 'Company_ID',
+       'Total_Amount_of_Payment_USDollars', 'Date', 'Number_of_Payments',
+       'Form_of_Payment_or_Transfer_of_Value',
+       'Nature_of_Payment_or_Transfer_of_Value', 'City_of_Travel',
+       'State_of_Travel', 'Country_of_Travel', 'Ownership_Indicator',
+       'Third_Party_Recipient', 'Charity', 'Third_Party_Covered',
+       'Contextual_Information', 'Related_Product_Indicator', 'Product_Code_1',
+       'Product_Code_2', 'Product_Code_3', 'Product_Type_1', 'Product_Type_2',
+       'Product_Type_3', 'Product_Name_1', 'Product_Name_2', 'Product_Name_3',
+       'Product_Category_1', 'Product_Category_2', 'Product_Category_3', 'set',
+       'First_Name', 'Middle_Name', 'Last_Name', 'Name_Suffix', 'City',
+       'State_Phys', 'Zipcode', 'Country_Phys', 'Province',
+       'Primary_Specialty', 'License_State_1', 'License_State_2',
+       'License_State_3', 'License_State_4', 'License_State_5', 'Company_Name',
+       'State_Comp', 'Country_Comp'
+
+NOTES:
+Ownership interest reflected in contextual info
+
+BASIS OF DROPPING RECORDS
+--Product code present but no name
+
+DROPS BASED ON CORR
+=====
+All Product Type columns dropped as high Corr with related product indicator
+
+
+THINGS TO TRY
+======
+-with day
+-squeeze and drop na
+-other models
+-increase data size (used only balanced ~4800 samples)
+
