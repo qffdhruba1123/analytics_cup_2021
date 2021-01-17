@@ -46,3 +46,44 @@ THINGS TO TRY
 -try clustering
 -anindya bhai will explore NNs
 
+
+
+17-01-2021
+
+further columns to drop
+Product Type all three
+Product Code all three
+
+Record drop
+====
+#iterate through and drop all record with no name but code, since these are all for
+#0 Ownership_Indicator, can lead to balanced data
+
+
+Accuracy Notes
+============
+without column drop:
+Internal Accuracy Score 0.985911818418993
+RF accuracy: TRAINING 1.0
+RF accuracy: TESTING 0.9887179487179487
+physician level: 98.22064056939502
+
+
+after dropping records
+Internal Accuracy Score 0.983946141895391
+RF accuracy: TRAINING 1.0
+RF accuracy: TESTING 0.9915433403805497
+phys level: 98.91107078039929
+
+
+Internal Accuracy Score 0.9820125130344108
+RF accuracy: TRAINING 1.0
+RF accuracy: TESTING 0.9958847736625515
+phys level: 99.45054945054946
+
+
+
+SQUEEZING NOTES
+======
+USE pd.wide_to_long
+afterwards, drop all record where *%*&^.Number is not the same.
