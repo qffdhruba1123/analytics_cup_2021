@@ -97,3 +97,5 @@ SQUEEZING NOTES
 ======
 USE pd.wide_to_long
 afterwards, drop all record where *%*&^.Number is not the same.
+
+CREATE OWNERSHIP INTEREST LABEL FROM OWNERSHIP INDICATORS
