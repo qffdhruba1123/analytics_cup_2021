@@ -1,3 +1,10 @@
+NEW APPROACH
+most transactions with which company
+number of transactions with this company
+
+
+
+
 columns to drop
 =====
 
